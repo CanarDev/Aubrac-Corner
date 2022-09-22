@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// SECTION CONCEPT==================
+
+.concept{
+    background-color: #333230;
+
+    
+.global {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.color {
+    position: absolute;
+    width: 50%;
+    background-color: rgb(198,78,28);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    transition: .5s;
+    border-radius: 15px;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.midi, .soir {
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.midi {
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.menu-soir {
+    display: none;
+}
+
+
+.translate {
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    width: 50%;
+
+    transform: translate(0%, 0);
+
+}
+
+@keyframes btn-midi {
+    0% {
+        transform: translate(0%, 0);
+        width: 50%;
+        left: 0%;
+    }
+
+    50% {
+        width: 30%;
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+        width: 50%;
+        left: 100%;
+    }
+}
+
+@keyframes btn-soir {
+    0% {
+        transform: translate(-100%, 0);
+        width: 50%;
+        left: 100%;
+    }
+
+    50% {
+        width: 30%;
+    }
+
+    100% {
+        transform: translate(0%, 0);
+        width: 50%;
+        left: 0;
+    }
+}
+}
+
+// ================
