@@ -1,6 +1,7 @@
 <template>
   <main>
     <TheHeader/>
+    <TheHero />
     <TheFaqSection/>
     <TheFooter/>
   </main>
