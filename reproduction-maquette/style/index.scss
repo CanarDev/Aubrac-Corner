@@ -260,10 +260,12 @@
 
 .products-section-title {
     padding: 0% 10%;
+
     h2 {
         margin: 0.5% 0;
         font-size: 32px;
     }
+
     hr {
         width: 15%;
         height: 2px;
@@ -273,9 +275,9 @@
 
 .products-list {
     .wrapper {
-        padding: 2% 9%;
+        padding: 2% 0% 0% 7%;
         display: grid;
-        grid-template-columns: 1fr repeat(10, 9.7%) 1fr;
+        grid-template-columns: 1fr repeat(10, 9.7%);
     }
 
     .content {
@@ -289,9 +291,14 @@
         height: 350px;
     }
 
+
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
     .block-horizontal-product-list figure {
         margin: 0;
-        margin-right: 0.5rem;
+        margin-right: 1.5rem;
         background-color: red;
         border-radius: 10px;
         width: 250px;

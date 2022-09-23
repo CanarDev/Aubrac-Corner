@@ -264,9 +264,9 @@
 }
 
 .products-list .wrapper {
-  padding: 2% 9%;
+  padding: 2% 0% 0% 7%;
   display: grid;
-  grid-template-columns: 1fr repeat(10, 9.7%) 1fr;
+  grid-template-columns: 1fr repeat(10, 9.7%);
 }
 .products-list .content {
   grid-column: 2/12;
@@ -277,9 +277,12 @@
   min-width: 100%;
   height: 350px;
 }
+.products-list ::-webkit-scrollbar {
+  width: 0px;
+}
 .products-list .block-horizontal-product-list figure {
   margin: 0;
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
   background-color: red;
   border-radius: 10px;
   width: 250px;
