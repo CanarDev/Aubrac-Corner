@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Aubrac-Corner',
+    title: 'l\'aubrac corner',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "~assets/style/colors.scss"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -36,7 +37,12 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: ['./assets/style/*.scss']
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
