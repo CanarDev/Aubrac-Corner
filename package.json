@@ -22,6 +22,7 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
     "sass": "^1.54.9",
     "sass-loader": "10"
   }

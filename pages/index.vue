@@ -1,66 +1,32 @@
 <template>
-
-  <!-- Concept -->
-  
-  <section class="concept">
-    
-    <h2>Notre Concept</h2>
-    
-    <div class="global">
-      
-      <div class="color translate"></div>
-      
-      <div class="text">
-        <a class="midi">
-          <p>Le Midi</p>
-        </a>
-        
-        <a class="soir">
-          <p>Le Soir</p>
-        </a>
-      </div>
-      
-      
-    </div>
-    
-    <div class="menu menu-midi">
-      
-      <div class="container">
-        <p>Viande +</p>
-        <p>Garniture +</p>
-        <p>Boisson <span>OU</span> Dessert</p>
-        <div class="price">
-          <p>16€</p>
-        </div>
-      </div>
-      
-      <div class="container">
-        <p>Viande +</p>
-        <p>Garniture +</p>
-        <p>Boisson <span>ET</span> Dessert</p>
-        <div class="price">
-          <p>18€</p>
-        </div>
-      </div>
-      
-    </div>
-    
-    <div class="menu menu-soir">
-    </div>
-
-    <!-- Fin Concept -->
-    
-  </section>
-  
+  <main>
+    <TheHeader/>
+    <TheFaqSection/>
+    <TheFooter/>
+  </main>
 </template>
 
 <script>
-  export default {
-    name: 'IndexPage',
-  }
-
+export default {
+    name: "IndexPage",
+}
 </script>
-<style>
-  @import '@/css/style.css'
 
+<style lang="scss">
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: $black;
+    font-family: "Rubik";
+    font-size: 13px;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+
+  }
 </style>
