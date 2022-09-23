@@ -2,6 +2,7 @@
   <main>
     <TheHeader/>
     <div class="mainContent">
+      <TheConcept/>
       <TheProducts/>
       <TheFaqSection/>
     </div>
@@ -11,7 +12,7 @@
 
 <script>
 export default {
-    name: "IndexPage",
+  name: "index",
 }
 </script>
 
