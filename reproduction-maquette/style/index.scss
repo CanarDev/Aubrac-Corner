@@ -304,4 +304,49 @@
             }
         }
     }
+    .header {
+        img {
+            transform: translate(0, 55%) !important;
+        }
+    }
+    .menus-list #between-section #text-container #text {
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+    }
+    .menus-list #between-section #text-container {
+        background-color: #c64e1c;
+        padding: 10px 50px;
+        width: 50%;
+        border-radius: 50px;
+    }
+    .menus-list #between-section {
+        transform: translate(0, 185%);
+        display: flex;
+        justify-content: center;
+    }
+    .concept {
+        transform: translate(0, 8%);
+        .global {
+            width: 100%;
+        }
+        .menu {
+            flex-wrap: wrap;
+        }
+        .container {
+            width: 90% !important;
+            margin: 0;
+            p {
+                font-size: 20px !important;
+            }
+        }
+        h2 {
+            margin: 5% 0px 0px 0px;
+        }
+    }
+    .products-list {
+        transform: translate(0, 15%);
+    }
 }

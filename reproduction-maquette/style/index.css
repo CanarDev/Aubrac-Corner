@@ -287,4 +287,47 @@
     padding: 0 !important;
     margin: 10px 0px !important;
   }
+  .header img {
+    transform: translate(0, 55%) !important;
+  }
+  .menus-list #between-section #text-container #text {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+  }
+  .menus-list #between-section #text-container {
+    background-color: #c64e1c;
+    padding: 10px 50px;
+    width: 50%;
+    border-radius: 50px;
+  }
+  .menus-list #between-section {
+    transform: translate(0, 185%);
+    display: flex;
+    justify-content: center;
+  }
+  .concept {
+    transform: translate(0, 8%);
+  }
+  .concept .global {
+    width: 100%;
+  }
+  .concept .menu {
+    flex-wrap: wrap;
+  }
+  .concept .container {
+    width: 90% !important;
+    margin: 0;
+  }
+  .concept .container p {
+    font-size: 20px !important;
+  }
+  .concept h2 {
+    margin: 5% 0px 0px 0px;
+  }
+  .products-list {
+    transform: translate(0, 15%);
+  }
 }/*# sourceMappingURL=index.css.map */
